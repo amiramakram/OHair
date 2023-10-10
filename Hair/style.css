@@ -1,4 +1,4 @@
-.main {
+/* .main {
     font-family:Arial;
     width:500px;
     display:block;
@@ -13,5 +13,20 @@
       padding: 2%;
       position: relative;
       text-align: center;
+  } */
+ 
+  .arrow_right , .arrow_left{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color: rgb(231, 224, 224);  
   }
-  
+
+  @media only screen and (min-width: 992px) {
+    .arrow_right , .arrow_left{
+        display: none;
+    }
+  }
