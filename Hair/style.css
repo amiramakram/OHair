@@ -1,5 +1,5 @@
-.main {
-    font-family:Arial;
+/* .main {
+    font-family:;
     width:500px;
     display:block;
     margin:0 auto;
@@ -13,8 +13,14 @@
       padding: 2%;
       position: relative;
       text-align: center;
-  }
- 
+  } */
+ @font-face{
+  font-family: driod;
+  src: url(fonts/Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf);
+ }
+ *{
+  font-family: driod;
+ }
   .arrow_right , .arrow_left{
     width: 50px;
     height: 50px;
